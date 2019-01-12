@@ -36,7 +36,6 @@ hideModal = () => {
 };
 
   render() {
-    console.log(this.props)
     if (this.state.loginSuccess) {
        this.props.history.push({
         pathname: '/slides',
